@@ -1,0 +1,130 @@
+/*http://localhost/MillerNoahCodingAsst/asstMain.php*/
+
+button
+{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background:none;
+    padding: 1em 1em;
+    margin: .3em 0em;
+  }
+
+button:hover
+{
+  -webkit-filter: drop-shadow(1px 1px 0 white)
+  drop-shadow(-1px 1px 0 white)
+  drop-shadow(1px -1px 0 white)
+  drop-shadow(-1px -1px 0 white);
+
+  filter: drop-shadow(1px 1px 0 white)
+  drop-shadow(-1px 1px 0 white)
+  drop-shadow(1px -1px 0 white)
+  drop-shadow(-1px -1px 0 white);
+}
+  
+button:active
+{
+  transform: translateY(3px);
+}
+
+body
+{
+    text-align:center;
+    background-color:#1a1611;
+    color:#F2A74B;
+    font-family:"Century Gothic";
+    font-size:1.2em;
+}
+
+a
+{
+    color: #BF5B04;
+}
+
+footer
+{
+  position:absolute;
+  width:99%;
+  margin-top:4em;
+  font-size:small;
+}
+
+input[name=License]
+{
+  color: white;
+  background-color: #d27a29;
+}
+
+input[name=Date]
+{
+  color: white;
+  background-color: #b85610;
+}
+
+input[name=Time]
+{
+  color:white;
+  background-color: #a03802;
+}
+
+input[name=Passengers]
+{
+  color:white;
+  background-color: #852102;
+}
+
+input[name=Danger]
+{
+  color: white;
+  background-color: #6c1002;
+}
+
+input[name=Speed]
+{
+  color:white;
+  background-color: #590202;
+}
+
+label
+{
+  color:white;
+}
+
+input
+{
+  width:10em;
+  font-family: "Century Gothic";
+  text-align:center;
+  height:10;
+  font-size:1.2em;
+}
+
+.DataPair
+{
+  font-family: "Century Gothic";
+  display: inline-block;
+  padding: .1em 3em;
+  margin: .3em 0;
+}
+
+select
+{
+  color: white;
+  background-color: #6c1002;
+  text-align:center;
+  width:10.5em;
+  font-size:1.2em;
+  font-family: "Century Gothic";
+  font-weight:bold;
+  overflow-y: hidden;
+}
+
+table
+{
+  text-align:center;
+  border-color:white;
+  border-style: solid;
+  background-image:linear-gradient(#bf5b04, #752b00);
+  color:white;
+}
